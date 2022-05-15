@@ -1,5 +1,16 @@
 # CS 232 Final - Latin Classification Model  
-  
+
+### Introduction
+This project introuduces a classical Latin text classification model built on [Latin-BERT](https://github.com/dbamman/latin-bert). It classifies Latin text as either historical and mythological. It then uses this model to investigate primary literary text that reports on the notorious Roman emperor Nero.
+
+An indepth report of this project can be found [here]().
+
+### How to run code
+1. Download the latin-bert language model from https://github.com/dbamman/latin-bert. Save this folder as "latin-bert-master" in the main directory.
+2. Create the following 3 folders: "history-dfs", "myth-dfs", "nero-dfs". This is where the dataframes that will be used to train and test the model will be held. For more detail, see folder descriptions below.
+3. Run the format-data.ipynb notebook to populate the 3 folders with the necessary dataframes. More detail on this process can be found in the notebook and the [report](../Nero Classifier Report.pdf)
+4. Train the model using the train_model.ipynb notebook.
+5. Investigate Latin texts on Nero using the nero_model.ipynb notebook.
   
 ### Folder Descriptions
 **ckpt**
@@ -42,7 +53,3 @@ This notebook loads the model trained in train_model.ipynb and classifies the pr
 
 **train_model.ipynb**
 This notebook builds and trains a classification model that determines if a Latin sentence is historical or mythological.  
-
-
-### How to run code
-The train_model.ipynb notebook creates the classification model using the dataframes outputted by format-data.ipynb. The nero_model.ipynb notebook uses this model to classify novel data.
