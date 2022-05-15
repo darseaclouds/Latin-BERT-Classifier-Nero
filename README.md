@@ -3,7 +3,7 @@
 ### Introduction
 This project introuduces a classical Latin text classification model built on [Latin-BERT](https://github.com/dbamman/latin-bert). It classifies Latin text as either historical or mythological. It then uses this model to investigate primary literary text that reports on the notorious Roman emperor Nero.
 
-An indepth report of this project can be found [here](report.pdf).
+Motivation for and an indepth report of this project can be found [here](report.pdf).
 
 ### How to run code
 1. Download the latin-bert repository from https://github.com/dbamman/latin-bert. Save this folder as "latin-bert-master" in the main directory.
