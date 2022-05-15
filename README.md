@@ -11,8 +11,6 @@ An indepth report of this project can be found [here](report.pdf).
 3. Run the format-data.ipynb notebook to populate the 3 folders with the necessary dataframes. More detail on this process can be found in the notebook and the [report](report.pdf).
 4. Train the model using the train_model.ipynb notebook.
 5. Investigate Latin texts on Nero using the nero_model.ipynb notebook.
-
-### Of Note
   
 ### Folder Descriptions
 **ckpt**
@@ -30,7 +28,7 @@ This folder contains the data/code necessary to running Latin BERT (found at htt
 **myth-dfs**
 This folder contains csv files that represent dataframes outputted by "format-data.ipynb". Each dataframe consists of rows that include a Latin sentence, an indication that it is from a mythical text, and the sentence's LatinBERT representation. The dataframe is formatted so it can be used as input to the classification model.
 
-**myth-dfs**
+**nero-dfs**
 This folder contains csv files that represent dataframes outputted by "format-data.ipynb". Each dataframe consists of rows that include a Latin sentence and the sentence's LatinBERT representation. The dataframe is formatted so it can be used as input to the classification model.
   
   
